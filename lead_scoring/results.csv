@@ -1,0 +1,4 @@
+name,role,company,intent,score,reasoning
+Alice Smith,CEO,FlowMetrics,Medium,70,Some fit with offer
+Bob Lee,Head of Growth,DataCorp,Medium,70,Some fit with offer
+Charlie Kim,Manager,TechSolutions,Medium,60,Some fit with offer
