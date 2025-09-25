@@ -13,7 +13,7 @@ app = FastAPI(
 # Include routes from routes.py
 app.include_router(routes.router)
 
-# Root endpoint (health check)
+# Root endpoint 
 @app.get("/")
 def read_root():
     return {"message": "Lead Scoring API is running!"}

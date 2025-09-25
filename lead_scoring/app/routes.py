@@ -23,7 +23,7 @@ def create_offer(offer: Offer):
 def upload_leads(file: UploadFile = File(...)):
     global leads_data
     if not file.filename.endswith(".csv"):
-        raise HTTPException(status_code=400, detail="Only CSV files allowed")
+        raise HTTPException(status_code=400, detail="only CSV files allowed")
     leads_data = parse_csv(file)
     return {"message": f"{len(leads_data)} leads uploaded"}
 
